@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+
 import { HomeComponent } from './home/home.component';
 
 import { RouterModule, Routes } from '@angular/router';
@@ -40,7 +40,7 @@ const routes: Routes = [
   ],
   declarations: [
     AppComponent,
-    HelloComponent,
+
     HomeComponent,
 
     // tslint:disable-next-line:max-line-length
