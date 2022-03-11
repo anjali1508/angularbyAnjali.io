@@ -18,6 +18,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { NavComponent } from './nav/nav.component';
 import { ProductComponent } from './product/product.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -26,7 +27,7 @@ const routes: Routes = [
 
 
   { path: 'login', component: LoginComponent },
-
+  { path: "register", component: RegisterComponent },
   { path: '**', component: PagenotfoundComponent },
 ];
 
@@ -52,6 +53,7 @@ const routes: Routes = [
 
     NavComponent,
     ProductComponent,
+    RegisterComponent
   ],
   bootstrap: [AppComponent],
 
